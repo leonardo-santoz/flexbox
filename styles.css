@@ -1,34 +1,12 @@
-body,
-html,
-#app {
-  height: 100%;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#app {
-  display: flex;
-  flex-wrap: wrap; /*quebra de linhas*/
-  align-items: center;
-  align-content: flex-start; /*alinhamento do conteúdo, com as mesmas props do justify-content*/
-}
-
-.box {
-  width: 150px;
-  height: 60px;
-  background: #f00;
-  margin: 5px;
-}
-
-.red {
-    order: 3;
-}
-
-.green {
-  background: #0f0;
-  order: 2;
-}
-
-.blue {
-  background: #00f;
-  order: 0;
+body {
+  background: #e6ecf0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, Sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
