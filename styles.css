@@ -7,14 +7,14 @@ html,
 
 #app {
   display: flex;
+  flex-wrap: wrap; /*quebra de linhas*/
+  align-items: center;
+  align-content: flex-start; /*alinhamento do conteúdo, com as mesmas props do justify-content*/
 }
 
 .box {
-  width: 300px;
+  width:  150px;
   height: 60px;
   background: #f00;
   margin: 5px;
-  /* flex-grow: 1;  utiliza toda a largura disponível em tela*/
-  /* flex-shrink: 1; diminui todo o conteúdo para caber na tela */
-  flex: 1; /*soma dos dois elementos acima*/
 }
